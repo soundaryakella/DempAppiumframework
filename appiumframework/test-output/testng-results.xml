@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49354" started-at="2019-09-27T11:48:05Z" finished-at="2019-09-27T11:48:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49354" started-at="2019-09-27T11:48:05Z" finished-at="2019-09-27T11:48:54Z">
+      <class name="test.Assign_001">
+        <test-method status="PASS" signature="_setTheCapabilities(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:test.Assign_001@7a30d1e6]" name="_setTheCapabilities" is-config="true" duration-ms="9421" started-at="2019-09-27T11:48:05Z" finished-at="2019-09-27T11:48:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nokia 6.1 plus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DRGID18100420489]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0.0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _setTheCapabilities -->
+        <test-method status="PASS" signature="_startServer()[pri:0, instance:test.Assign_001@7a30d1e6]" name="_startServer" is-config="true" duration-ms="2698" started-at="2019-09-27T11:48:15Z" finished-at="2019-09-27T11:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _startServer -->
+        <test-method status="PASS" signature="_launchApp()[pri:0, instance:test.Assign_001@7a30d1e6]" name="_launchApp" is-config="true" duration-ms="2094" started-at="2019-09-27T11:48:18Z" finished-at="2019-09-27T11:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _launchApp -->
+        <test-method status="PASS" signature="_addToCart()[pri:0, instance:test.Assign_001@7a30d1e6]" name="_addToCart" duration-ms="34814" started-at="2019-09-27T11:48:20Z" finished-at="2019-09-27T11:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _addToCart -->
+        <test-method status="PASS" signature="_endServer()[pri:0, instance:test.Assign_001@7a30d1e6]" name="_endServer" is-config="true" duration-ms="0" started-at="2019-09-27T11:48:54Z" finished-at="2019-09-27T11:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _endServer -->
+      </class> <!-- test.Assign_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

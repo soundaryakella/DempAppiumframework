@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.testyentra.paytm.nativeapp.listener.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="ipaddress" value="0.0.0.0"/>
+    <parameter name="platformVersion" value="9"/>
+    <parameter name="serverPort" value="4723"/>
+    <parameter name="deviceName" value="Nokia 6.1 plus"/>
+    <parameter name="UDID" value="DRGID18100420489"/>
+    <classes>
+      <class name="test.Assign_001">
+        <methods>
+          <include name="_addToCart"/>
+          <include name="_setTheCapabilities"/>
+          <include name="_launchApp"/>
+          <include name="_startServer"/>
+          <include name="_endServer"/>
+        </methods>
+      </class> <!-- test.Assign_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
